@@ -1,0 +1,105 @@
+/*Topo*/
+
+.jumbotron {
+    background-color: black;
+    color: floralwhite;
+    padding: 100px 25px;
+	font-family: Montserrat, sans-serif;
+}
+
+/*Sobre*/
+
+.logo {
+    font-size: 200px;
+	color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+/*Itens abaixo do topo*/
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+/*Menu superior*/
+
+.navbar {
+	font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: black;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: floralwhite !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: floralwhite !important;
+}
+
+/*Final da pagina*/
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black !important;
+}
+
+/*Fonte*/
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+/*Titulos e sub titulos*/
+
+h2 {
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Abas laterais */
+
+.area-tabs {
+	margin-top: 30px;
+}
+
+.tab-pane.active{
+	height: 390px;
+	overflow: auto;
+	text-decoration: none;
+}
+
+.nav-pills > li.active > a{
+	background-color: black !important;
+	color: floralwhite;
+}
+
+.nav-pills > li > a{
+	background-color: floralwhite !important;
+	color: black;
+}

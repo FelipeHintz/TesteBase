@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>THE CREEPER</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<link rel="icon" href="logo1.png" type="image/x-icon" />
+    </head>
+		
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+              <a class="navbar-brand" href="#home"><p class="titulo">THE CREEPER</p></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#malware">MALWARE</a></li>
+                <li><a href="#curiosidades">CURIOSIDADES</a></li>
+                <li><a href="#antivirus">ANTIVÍRUS</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="jumbotron text-center" id="home">
+			<center>
+				<img src="Logo1.png">
+			</center>
+			<h1>THE CREEPER</h1>	
+        </div>
+
+		<div id="malware" class="container-fluid text-center">
+			<h2>MALWARE</h2>
+            <p>
+				O termo malware é uma junção de duas palavra malicius e sorftware, malware é básicamente todo o software que tem a inteção de prejudicar dados, dispositivos ou pessoas. O malware tem diferentes variações, com cada uma delas sendo usada pra uma aplicação expecifica. São elas:
+			</p>	
+			
+		<div class="area-tabs">
+
+			<ul class="nav nav-pills nav-stacked col-md-2">
+				<li class="active"><a href="#tab_a" data-toggle="pill">Vírus</a></li>  
+				<li><a href="#tab_b" data-toggle="pill">Cavalo de troia</a></li>
+				<li><a href="#tab_c" data-toggle="pill">Worm</a></li>  
+				<li><a href="#tab_d" data-toggle="pill">Spyware</a></li>  
+				<li><a href="#tab_e" data-toggle="pill">Keylogger</a></li>  
+				<li><a href="#tab_f" data-toggle="pill">Hijacker</a></li>  
+				<li><a href="#tab_g" data-toggle="pill">Rootkit</a></li>  
+				<li><a href="#tab_i" data-toggle="pill">Ransomware</a></li>  
+			</ul>
+			
+			<div class="tab-content col-md-15">
+			
+				<div class="tab-pane active" id="tab_a">
+					<p>
+						Os vírus recebem esse nome porque possuem características de propagação que lembram os vírus reais, isto é, biológicos: quando um vírus contamina 
+						um computador, além de executar a ação para o qual foi programado, tenta também se espalhar para outras máquinas.
+					</p>
+					<p>
+						Antigamente, os vírus tinham um raio de ação muito limitado: se propagavam, por exemplo, toda vez que um disquete contaminado era lido no computador. 
+						Com o surgimento da internet, no entanto, essa situação mudou drasticamente, para pior.
+					</p>
+					<p>
+						Isso acontece porque, com a internet, os vírus podem se espalhar de maneira muito mais rápida e contaminar um número muito mais expressivo de 
+						computadores. Para isso, podem explorar vários meios, entre eles:
+						
+						<li>Falhas de segurança (bugs): sistemas operacionais e outros programas não são softwares perfeitos e podem conter falhas. Estas, quando descobertas 
+						por pessoas com fins maliciosos, podem ser exploradas por vírus, permitindo a contaminação do sistema, muitas vezes sem o usuário perceber.</li>
+						<li>E-mails: essa é uma das práticas mais exploradas. O usuário recebe mensagens que tentam convencê-lo a executar um arquivo anexado ou presente em 
+						um link. Se o usuário o fizer sem perceber que está sendo enganado, certamente terá seu computador contaminado.</li>
+						<li>Downloads: o usuário pode baixar um arquivo de um determinado site sem perceber que este pode estar infectado.</li>
+					</p>
+					<p>
+						Os vírus também podem se propagar através de uma combinação de meios. Por exemplo, uma pessoa em um escritório pode executar o anexo de um e-mail e, com isso, 
+						contaminar o seu computador. Em seguida, este mesmo vírus pode tentar explorar falhas de segurança de outros computadores da rede para infectá-los.
+					</p>
+				</div>
+				<div class="tab-pane" id="tab_b">
+					<p>
+						Cavalo de troia é um tipo de malware que possibilita uma maneira de acesso remoto ao computador após a infecção. Além de executar as funções pelas quais ele foi projetado, 
+						também pode fazer outras funções maliciosas, como por exemplo:
+					</p>
+						<ul>
+							<li>Instalação de keyloggers ou screenlogger;</li>
+							<li>Furto de senhas e outras informações;</li>
+							<li>Inclusão de backdoors, onde uma pessoa pode ter o total controle sobre o computador;</li>
+							<li>Alteração ou exclusão de arquivos;</li>
+						</ul>
+					<p>
+						Para ser instalado no computador o cavalo de troia tem que ser executado, onde geralmente ele vem anexado em um e-mail ou disponível em algum site da internet.
+					</p>
+				</div>
+				<div class="tab-pane" id="tab_c">
+					<p>
+						Os worns(ou vermes) é um tipo de malware que são mais inteligentes que os demais, pois os worns são auto replicantes, ou seja, ele cria varias copias de si mesmo e 
+						infecta outros computadores. Esta infeção pode acontecer por meio de conexões de rede local, pela internet ou anexos de e-mail. 
+					</p>
+					<p>
+						O worn pode enviar copias de si próprio para todos os contatos de seu e-mail, e depois disso, os computadores destas pessoas farão o mesmo, causando um efeito de avalanche,
+						com isso ocorrera o congestionamento de redes das empresas e da internet. Com esse congestionamento eles entopem as redes e podem criar grandes períodos de espera 
+						para abrir paginas na Internet.
+					</p>
+				</div>
+				<div class="tab-pane" id="tab_d">
+					<p>
+						O Spyware são programas espiões, onde sua função é “espionar” as informações sobre uma ou mais atividades realizadas em um computador. Existem Spyware que são projetados para 
+						o mau e outros para o bem. Os Spyware maus são feitos para visualizar as atividades dos usuários e capturar informações sobre ele, onde posteriormente são transmitidos 
+						pela Internet, contendo desde hábitos de navegação do usuário até senhas. Os Spyware bons são usados por empresas de anuncio que se utilizam para de forma legal, coletar 
+						informações dos assinantes, com vistas a selecionar o tipo de anuncio que irão lhes apresentar.
+					</p>
+				</div> 
+				<div class="tab-pane" id="tab_e">
+					<p>
+						O KeyLogger são programas que são capazes de gravar tudo o que uma pessoa desavisada digitar no teclado, incluindo senhas de acesso a contas de banco, email, entre outros. 
+						Aplicativos com função keylogging foram criados com intuito de monitorar a atividades de funcionários de uma empresa e até para os pais saberem o que os filhos acessam na 
+						internet.
+					</p>
+					<p>
+						Na maioria das ocasiões, o KeyLogger é instalado no computador quando o usuario abre email ou conteúdos baixados da internet que continham o programa disfarçado entre os 
+						arquivos. Essa ferramenta já foi responsável por vários roubos milionários em contas bancarias, especialmente no Brasil.
+					</p>
+				</div>
+				<div class="tab-pane" id="tab_f">
+					<p>
+						São programas que “sequestram” navegadores de internet. Eles entram em seu computador e modificam os registros do Windows, assim eles conseguem modificar a pagina inicial 
+						dele e impedir que seja mudado, exibir anúncios em janelas novas, instalar barras de ferramentas e bloquear o acesso a determinados sites. Todas as coisas que são 
+						alteradas em seu navegador, geralmente linkam para publicidade, e quem saem ganhando com isso, é o próprio desenvolvedor do Hijack, pois ele é pago cada vez que esta 
+						publicidade é aberta.
+					</p>
+				</div>
+				<div class="tab-pane" id="tab_g">
+					<p>
+						Esse é um dos tipos de malwares mais perigosos. Podem ser utilizados para várias finalidades, como capturar dados do usuário. Até aí, nenhuma novidade. 
+						O que torna os rootkits tão ameaçadores é a capacidade que possuem para dificultar a sua detecção por antivírus ou outros softwares de segurança. 
+						Em outras palavras, os rootkits conseguem se "camuflar" no sistema. Para isso, desenvolvedores de rootkits podem fazer uso de várias técnicas avançadas, como 
+						infiltrar o malware em processos ativos na memória.
+					</p>
+					<p>
+						Além de difícil detecção, os rootkits também são de difícil remoção. Felizmente, sua complexidade de desenvolvimento faz esses invasores não serem numerosos.
+					</p>
+				</div>
+				<div class="tab-pane" id="tab_i">
+					<p>
+						São malware criado com o intuito de bloquear ou limitar o acesso a arquivos, pastas, aplicativos, unidades de armazenamento inteiras ou até mesmo impedir o uso do 
+						sistema Operacional. Para liberar esses recursos, o ransomware costuma mostrar mensagens exigindo pagamentos.
+					</p>
+					<p>
+						Para convencer o usuário a desembolsar o valor exigido, a mensagem pode conter ameaças ou chantagens, dizendo que dados importantes serão apagados ou que imagens 
+						particulares da pessoa serão publicadas na internet caso o pagamento não seja efetuado.
+					</p>
+				</div> 
+			
+			</div>
+        </div>		
+		
+		<div id="curiosidades" class="container-fluid text-center">
+            <h2>CURIOSIDADES</h2>
+            <p>	
+				Jerusalém (Sexta-feira 13): foi lançado em 1987 era do tipo time bomb, ou seja, ele é programado para agir em certa data, que neste caso seria em todas sexta-feira 13. 
+				Ele infectava arquivos com extensão .exe,. com, entre outros prejudicando o funcionamento do Sistema Operacional. 
+			</p>
+			<p>	
+				Melissa: Foi criado em 1999, o vírus Melissa era um script de macro para o Word. Foi um dos primeiros que se propagavam via e-mail: depois de infectar seu computador, 
+				ele mandava para os 50 primeiros contatos de seu e-mail. Na época ele gerou uma grande despesa a empresas e instituições por causa do intenso tráfico de dados que gerou 
+				na internet. 
+			</p>
+			<p>
+				ILOVEYOU: trata-se de um worm que surgiu no ano 2000. Sua propagação se dava principalmente por e-mail, utilizando como título uma expressão simples, mas capaz de causar 
+				grande impacto nas pessoas: "ILOVEYOU" (eu te amo). A praga era capaz de criar várias cópias suas no computador, sobrescrever arquivos, entre outras atividades.
+			</p>
+			<p>
+				Code Red: worm que surgiu em 2001 e que se espalhava explorando uma falha de segurança nos sistemas operacionais Windows NT e Windows 2000. 
+				O malware deixava o computador lento e, no caso do Windows 2000, chegava inclusive a deixar o sistema inutilizável.
+			</p>
+			<p>
+				MyDoom: lançado em 2004, esse worm utilizava os computadores infectados como "escravos" para ataques DDoS. Se espalhava principalmente por ferramentas de troca de 
+				arquivos (P2P) e e-mails. Além de buscar endereços nos computadores contaminados, procurava-os também em sites de busca.
+			</p>
+        </div>
+		
+		<div id="antivirus" class="container-fluid text-center">
+            <h2>ANTIVÍRUS</h2>
+			<p>	
+				Os antivírus são softwares que identificam, impedem e atuam na remoção de softwares maliciosos, como vírus e worns. Eles protegem e previnem computadores e outros 
+				aparelhos de pegarem vírus ou outros códigos maliciosos, que possam capturar sua senha. Você pode utilizar nossa solução online para verificar a segurança de seu computador.	
+			</p>
+			<br><br>
+        </div>
+		
+        <footer class="container-fluid text-center">
+          <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+          </a>
+        </footer>
+		
+		<script> //smooth scrolling
+		
+			$(document).ready(function(){
+			  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+			  if (this.hash !== "") {
+				event.preventDefault();
+				var hash = this.hash;
+				$('html, body').animate({
+				  scrollTop: $(hash).offset().top
+				}, 900, function(){
+				  window.location.hash = hash;
+				  });
+				}
+			  });
+			})
+		
+		</script>
+        
+    </body>    
+    
+</html>
