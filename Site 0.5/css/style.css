@@ -21,7 +21,7 @@
     }
 }
 
-/*Itens abaixo do topo*/
+/*Area Textos*/
 
 .container-fluid {
     padding: 60px 50px;
@@ -83,10 +83,6 @@ h4 {
 }
 
 /* Abas laterais */
-
-.area-tabs {
-	margin-top: 30px;
-}
 
 .tab-pane.active{
 	height: 390px;
